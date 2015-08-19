@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5B695C1B2EFBC400B1FCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B695B1B2EFBC400B1FCD7 /* main.m */; };
+		8E5B695F1B2EFBC400B1FCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B695E1B2EFBC400B1FCD7 /* AppDelegate.m */; };
+		8E5B69621B2EFBC400B1FCD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B69611B2EFBC400B1FCD7 /* ViewController.m */; };
+		8E5B69651B2EFBC400B1FCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B69631B2EFBC400B1FCD7 /* Main.storyboard */; };
+		8E5B69671B2EFBC400B1FCD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B69661B2EFBC400B1FCD7 /* Images.xcassets */; };
+		8E5B696A1B2EFBC400B1FCD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B69681B2EFBC400B1FCD7 /* LaunchScreen.xib */; };
+		8E5B69761B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B69751B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.m */; };
+		8E5B69811B2EFC4600B1FCD7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69801B2EFC4600B1FCD7 /* Accelerate.framework */; };
+		8E5B69831B2EFC4F00B1FCD7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69821B2EFC4F00B1FCD7 /* CoreData.framework */; };
+		8E5B69851B2EFC5E00B1FCD7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69841B2EFC5E00B1FCD7 /* libc++.dylib */; };
+		8E5B69871B2EFC6C00B1FCD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69861B2EFC6C00B1FCD7 /* UIKit.framework */; };
+		8E5B69891B2EFC7900B1FCD7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69881B2EFC7900B1FCD7 /* MobileCoreServices.framework */; };
+		8E5B698B1B2EFC7F00B1FCD7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B698A1B2EFC7F00B1FCD7 /* StoreKit.framework */; };
+		8E5B698D1B2EFC8C00B1FCD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B698C1B2EFC8C00B1FCD7 /* QuartzCore.framework */; };
+		8E5B69911B2EFCC900B1FCD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B698E1B2EFCC900B1FCD7 /* Foundation.framework */; };
+		8E5B69921B2EFCC900B1FCD7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B698F1B2EFCC900B1FCD7 /* MessageUI.framework */; };
+		8E5B69931B2EFCC900B1FCD7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69901B2EFCC900B1FCD7 /* OpenGLES.framework */; };
+		8E5B69951B2EFCDB00B1FCD7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69941B2EFCDB00B1FCD7 /* libz.1.2.5.dylib */; };
+		8E5B69971B2EFCE600B1FCD7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69961B2EFCE600B1FCD7 /* libsqlite3.0.dylib */; };
+		8E5B699A1B2EFD0300B1FCD7 /* AdobeCreativeSDKFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69981B2EFD0300B1FCD7 /* AdobeCreativeSDKFoundation.framework */; };
+		8E5B699B1B2EFD0400B1FCD7 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5B69991B2EFD0300B1FCD7 /* AdobeCreativeSDKImage.framework */; };
+		8E5B69A11B2F06D600B1FCD7 /* AdobeCreativeSDKImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B69A01B2F06D600B1FCD7 /* AdobeCreativeSDKImageResources.bundle */; };
+		8E5B69A51B2F077000B1FCD7 /* AdobeCreativeSDKFoundationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B69A41B2F077000B1FCD7 /* AdobeCreativeSDKFoundationResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5B69701B2EFBC500B1FCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5B694E1B2EFBC400B1FCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5B69551B2EFBC400B1FCD7;
+			remoteInfo = MyAdobeCriativeSdkImageEditingSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5B69561B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAdobeCriativeSdkImageEditingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5B695A1B2EFBC400B1FCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5B695B1B2EFBC400B1FCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E5B695D1B2EFBC400B1FCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E5B695E1B2EFBC400B1FCD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E5B69601B2EFBC400B1FCD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E5B69611B2EFBC400B1FCD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E5B69641B2EFBC400B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5B69661B2EFBC400B1FCD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E5B69691B2EFBC400B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E5B696F1B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdobeCriativeSdkImageEditingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5B69741B2EFBC500B1FCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5B69751B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAdobeCriativeSdkImageEditingSampleTests.m; sourceTree = "<group>"; };
+		8E5B69801B2EFC4600B1FCD7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8E5B69821B2EFC4F00B1FCD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E5B69841B2EFC5E00B1FCD7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8E5B69861B2EFC6C00B1FCD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E5B69881B2EFC7900B1FCD7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8E5B698A1B2EFC7F00B1FCD7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8E5B698C1B2EFC8C00B1FCD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8E5B698E1B2EFCC900B1FCD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E5B698F1B2EFCC900B1FCD7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8E5B69901B2EFCC900B1FCD7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8E5B69941B2EFCDB00B1FCD7 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		8E5B69961B2EFCE600B1FCD7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8E5B69981B2EFD0300B1FCD7 /* AdobeCreativeSDKFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKFoundation.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKFoundation.framework; sourceTree = "<group>"; };
+		8E5B69991B2EFD0300B1FCD7 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKImage.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		8E5B69A01B2F06D600B1FCD7 /* AdobeCreativeSDKImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKImageResources.bundle; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKImage.framework/Versions/A/Resources/AdobeCreativeSDKImageResources.bundle; sourceTree = "<group>"; };
+		8E5B69A21B2F075300B1FCD7 /* AdobeCreativeSDKFoundation */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AdobeCreativeSDKFoundation; path = MyAdobeCriativeSdkImageEditingSample/AdobeCreativeSDKFrameworks/AdobeCreativeSDKFoundation.framework/Versions/A/AdobeCreativeSDKFoundation; sourceTree = "<group>"; };
+		8E5B69A41B2F077000B1FCD7 /* AdobeCreativeSDKFoundationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKFoundationResources.bundle; path = MyAdobeCriativeSdkImageEditingSample/AdobeCreativeSDKFrameworks/AdobeCreativeSDKFoundation.framework/Versions/A/Resources/AdobeCreativeSDKFoundationResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5B69531B2EFBC400B1FCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B69811B2EFC4600B1FCD7 /* Accelerate.framework in Frameworks */,
+				8E5B69831B2EFC4F00B1FCD7 /* CoreData.framework in Frameworks */,
+				8E5B699B1B2EFD0400B1FCD7 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				8E5B699A1B2EFD0300B1FCD7 /* AdobeCreativeSDKFoundation.framework in Frameworks */,
+				8E5B69971B2EFCE600B1FCD7 /* libsqlite3.0.dylib in Frameworks */,
+				8E5B69951B2EFCDB00B1FCD7 /* libz.1.2.5.dylib in Frameworks */,
+				8E5B69911B2EFCC900B1FCD7 /* Foundation.framework in Frameworks */,
+				8E5B69921B2EFCC900B1FCD7 /* MessageUI.framework in Frameworks */,
+				8E5B69931B2EFCC900B1FCD7 /* OpenGLES.framework in Frameworks */,
+				8E5B698D1B2EFC8C00B1FCD7 /* QuartzCore.framework in Frameworks */,
+				8E5B698B1B2EFC7F00B1FCD7 /* StoreKit.framework in Frameworks */,
+				8E5B69891B2EFC7900B1FCD7 /* MobileCoreServices.framework in Frameworks */,
+				8E5B69871B2EFC6C00B1FCD7 /* UIKit.framework in Frameworks */,
+				8E5B69851B2EFC5E00B1FCD7 /* libc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5B696C1B2EFBC500B1FCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5B694D1B2EFBC400B1FCD7 = {
+			isa = PBXGroup;
+			children = (
+				8E5B69A41B2F077000B1FCD7 /* AdobeCreativeSDKFoundationResources.bundle */,
+				8E5B69A21B2F075300B1FCD7 /* AdobeCreativeSDKFoundation */,
+				8E5B69581B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample */,
+				8E5B69721B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests */,
+				8E5B69571B2EFBC400B1FCD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5B69571B2EFBC400B1FCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B69561B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample.app */,
+				8E5B696F1B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5B69581B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B697F1B2EFC1200B1FCD7 /* Classes */,
+				8E5B69631B2EFBC400B1FCD7 /* Main.storyboard */,
+				8E5B69661B2EFBC400B1FCD7 /* Images.xcassets */,
+				8E5B69681B2EFBC400B1FCD7 /* LaunchScreen.xib */,
+				8E5B699C1B2EFD1A00B1FCD7 /* Frameworks */,
+				8E5B69591B2EFBC400B1FCD7 /* Supporting Files */,
+			);
+			path = MyAdobeCriativeSdkImageEditingSample;
+			sourceTree = "<group>";
+		};
+		8E5B69591B2EFBC400B1FCD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B695A1B2EFBC400B1FCD7 /* Info.plist */,
+				8E5B695B1B2EFBC400B1FCD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5B69721B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B69751B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.m */,
+				8E5B69731B2EFBC500B1FCD7 /* Supporting Files */,
+			);
+			path = MyAdobeCriativeSdkImageEditingSampleTests;
+			sourceTree = "<group>";
+		};
+		8E5B69731B2EFBC500B1FCD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B69741B2EFBC500B1FCD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5B697F1B2EFC1200B1FCD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B695D1B2EFBC400B1FCD7 /* AppDelegate.h */,
+				8E5B695E1B2EFBC400B1FCD7 /* AppDelegate.m */,
+				8E5B69601B2EFBC400B1FCD7 /* ViewController.h */,
+				8E5B69611B2EFBC400B1FCD7 /* ViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8E5B699C1B2EFD1A00B1FCD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B69A01B2F06D600B1FCD7 /* AdobeCreativeSDKImageResources.bundle */,
+				8E5B69801B2EFC4600B1FCD7 /* Accelerate.framework */,
+				8E5B69821B2EFC4F00B1FCD7 /* CoreData.framework */,
+				8E5B69991B2EFD0300B1FCD7 /* AdobeCreativeSDKImage.framework */,
+				8E5B69981B2EFD0300B1FCD7 /* AdobeCreativeSDKFoundation.framework */,
+				8E5B69961B2EFCE600B1FCD7 /* libsqlite3.0.dylib */,
+				8E5B69941B2EFCDB00B1FCD7 /* libz.1.2.5.dylib */,
+				8E5B698E1B2EFCC900B1FCD7 /* Foundation.framework */,
+				8E5B698F1B2EFCC900B1FCD7 /* MessageUI.framework */,
+				8E5B69901B2EFCC900B1FCD7 /* OpenGLES.framework */,
+				8E5B698C1B2EFC8C00B1FCD7 /* QuartzCore.framework */,
+				8E5B698A1B2EFC7F00B1FCD7 /* StoreKit.framework */,
+				8E5B69881B2EFC7900B1FCD7 /* MobileCoreServices.framework */,
+				8E5B69861B2EFC6C00B1FCD7 /* UIKit.framework */,
+				8E5B69841B2EFC5E00B1FCD7 /* libc++.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5B69551B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5B69791B2EFBC500B1FCD7 /* Build configuration list for PBXNativeTarget "MyAdobeCriativeSdkImageEditingSample" */;
+			buildPhases = (
+				8E5B69521B2EFBC400B1FCD7 /* Sources */,
+				8E5B69531B2EFBC400B1FCD7 /* Frameworks */,
+				8E5B69541B2EFBC400B1FCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAdobeCriativeSdkImageEditingSample;
+			productName = MyAdobeCriativeSdkImageEditingSample;
+			productReference = 8E5B69561B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E5B696E1B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5B697C1B2EFBC500B1FCD7 /* Build configuration list for PBXNativeTarget "MyAdobeCriativeSdkImageEditingSampleTests" */;
+			buildPhases = (
+				8E5B696B1B2EFBC500B1FCD7 /* Sources */,
+				8E5B696C1B2EFBC500B1FCD7 /* Frameworks */,
+				8E5B696D1B2EFBC500B1FCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5B69711B2EFBC500B1FCD7 /* PBXTargetDependency */,
+			);
+			name = MyAdobeCriativeSdkImageEditingSampleTests;
+			productName = MyAdobeCriativeSdkImageEditingSampleTests;
+			productReference = 8E5B696F1B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5B694E1B2EFBC400B1FCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					8E5B69551B2EFBC400B1FCD7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8E5B696E1B2EFBC500B1FCD7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8E5B69551B2EFBC400B1FCD7;
+					};
+				};
+			};
+			buildConfigurationList = 8E5B69511B2EFBC400B1FCD7 /* Build configuration list for PBXProject "MyAdobeCriativeSdkImageEditingSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E5B694D1B2EFBC400B1FCD7;
+			productRefGroup = 8E5B69571B2EFBC400B1FCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5B69551B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample */,
+				8E5B696E1B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5B69541B2EFBC400B1FCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B69A51B2F077000B1FCD7 /* AdobeCreativeSDKFoundationResources.bundle in Resources */,
+				8E5B69A11B2F06D600B1FCD7 /* AdobeCreativeSDKImageResources.bundle in Resources */,
+				8E5B69651B2EFBC400B1FCD7 /* Main.storyboard in Resources */,
+				8E5B696A1B2EFBC400B1FCD7 /* LaunchScreen.xib in Resources */,
+				8E5B69671B2EFBC400B1FCD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5B696D1B2EFBC500B1FCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5B69521B2EFBC400B1FCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B69621B2EFBC400B1FCD7 /* ViewController.m in Sources */,
+				8E5B695F1B2EFBC400B1FCD7 /* AppDelegate.m in Sources */,
+				8E5B695C1B2EFBC400B1FCD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5B696B1B2EFBC500B1FCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B69761B2EFBC500B1FCD7 /* MyAdobeCriativeSdkImageEditingSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5B69711B2EFBC500B1FCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5B69551B2EFBC400B1FCD7 /* MyAdobeCriativeSdkImageEditingSample */;
+			targetProxy = 8E5B69701B2EFBC500B1FCD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E5B69631B2EFBC400B1FCD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5B69641B2EFBC400B1FCD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5B69681B2EFBC400B1FCD7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5B69691B2EFBC400B1FCD7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5B69771B2EFBC500B1FCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E5B69781B2EFBC500B1FCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5B697A1B2EFBC500B1FCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyAdobeCriativeSdkImageEditingSample/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = MyAdobeCriativeSdkImageEditingSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E5B697B1B2EFBC500B1FCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyAdobeCriativeSdkImageEditingSample/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = MyAdobeCriativeSdkImageEditingSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E5B697D1B2EFBC500B1FCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAdobeCriativeSdkImageEditingSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAdobeCriativeSdkImageEditingSample.app/MyAdobeCriativeSdkImageEditingSample";
+			};
+			name = Debug;
+		};
+		8E5B697E1B2EFBC500B1FCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAdobeCriativeSdkImageEditingSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAdobeCriativeSdkImageEditingSample.app/MyAdobeCriativeSdkImageEditingSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5B69511B2EFBC400B1FCD7 /* Build configuration list for PBXProject "MyAdobeCriativeSdkImageEditingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5B69771B2EFBC500B1FCD7 /* Debug */,
+				8E5B69781B2EFBC500B1FCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5B69791B2EFBC500B1FCD7 /* Build configuration list for PBXNativeTarget "MyAdobeCriativeSdkImageEditingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5B697A1B2EFBC500B1FCD7 /* Debug */,
+				8E5B697B1B2EFBC500B1FCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E5B697C1B2EFBC500B1FCD7 /* Build configuration list for PBXNativeTarget "MyAdobeCriativeSdkImageEditingSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5B697D1B2EFBC500B1FCD7 /* Debug */,
+				8E5B697E1B2EFBC500B1FCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5B694E1B2EFBC400B1FCD7 /* Project object */;
+}
